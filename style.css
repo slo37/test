@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;   
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container a {
+    color: white !important; 
+    text-decoration: none; 
+  }
+
+  .section1 {
+      height: calc(100vh/2) ;
+      background-image: url("./images/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+
+  .section2 {
+    height: calc((100vh/3)) ;
+  }
+
+  .section3 {
+    height: calc((100vh/3)) ;
+  }
+  .section4 {
+    height: calc((100vh/2)/3) ;
+  }
+
+.sectionMain {
+    color: white;
+ position: absolute;
+ top:50%;
+ transform: translate(-50%,-50%);   
+ left: 50%;
+}
+
+.sectionMain h1 , .sectionMain p {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.buttonGroupe {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGroupe button {
+    margin-top: 10px;
+    width: 90px;
+    padding: 6px;
+    border-radius: 3px;
+    background-color: #0000FF	;
+    box-shadow: none;
+    border: 0;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    color: white;
+    padding-top: 20px;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navItems li {
+    margin: 0 10px;
+    list-style: none;
+    padding: 6px;
+    border-radius:3px
+}
+
+.navItems li:hover {
+    background-color:#0000FF;
+    transition: all 0.9s;
+}
+
+.navItems li:active {
+    background-color:#FF4433;
+    transition: all 0.9s;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.paragphe{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  padding: 15px 0;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.moreinfo {
+  width: calc(100vw/3 - 100px );
+  text-align: center;
+}
+
+.moreinfo div {
+  font-size: 15px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.moreinfo button {
+  margin-top: 10px;
+  width: 90px;
+  padding: 6px;
+  border-radius: 3px;
+  background-color: #0000FF	;
+  box-shadow: none;
+  border: 0;
+  color: white;
+}
+
+.paragphe h1 {
+  font-size: 20px;
+}
+
+.paragphe p {
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section3 {
+  color: white !important;
+  background-color: #0000FF;
+}
+
+.section3 .block .moreinfo div {
+  color: white;
+}
+
+.section3 .block .moreinfo button {
+  background-color: white;
+  color: #0000FF;
+}
+
+.section3 .paragphe h1 {
+  color: white !important;
+}
+
+.section3 .block {
+  display: flex;
+  justify-content: center;
+}
